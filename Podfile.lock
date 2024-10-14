@@ -1,0 +1,20 @@
+PODS:
+  - FittedSheets (2.6.1)
+  - IQKeyboardManagerSwift (7.0.0)
+
+DEPENDENCIES:
+  - FittedSheets
+  - IQKeyboardManagerSwift (= 7.0.0)
+
+SPEC REPOS:
+  trunk:
+    - FittedSheets
+    - IQKeyboardManagerSwift
+
+SPEC CHECKSUMS:
+  FittedSheets: 37e35f105c531f3845075f1788dd8517a35315c4
+  IQKeyboardManagerSwift: bd69f3a49f6ead9cb6ce17723cf0c6c9b948d83e
+
+PODFILE CHECKSUM: 136e564bb1bd107996d9ae8ab0c4088c39cda68a
+
+COCOAPODS: 1.15.2

@@ -7,23 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EB152BB43CA1066544F7B7A /* Pods_Foody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEDFA7AC7D83DC7AB613DE4 /* Pods_Foody.framework */; };
 		6B200E0F2C8B2DF90082EEEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B200E0E2C8B2DF90082EEEA /* AppDelegate.swift */; };
 		6B200E112C8B2DF90082EEEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B200E102C8B2DF90082EEEA /* SceneDelegate.swift */; };
-		6B200E132C8B2DF90082EEEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B200E122C8B2DF90082EEEA /* ViewController.swift */; };
 		6B200E162C8B2DF90082EEEA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6B200E152C8B2DF90082EEEA /* Base */; };
 		6B200E182C8B2DFC0082EEEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B200E172C8B2DFC0082EEEA /* Assets.xcassets */; };
 		6B200E1B2C8B2DFC0082EEEA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6B200E1A2C8B2DFC0082EEEA /* Base */; };
+		6B200E232C8B3B8C0082EEEA /* LaunchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B200E222C8B3B8C0082EEEA /* LaunchVC.swift */; };
+		6B200E252C8B3D9E0082EEEA /* MainNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B200E242C8B3D9E0082EEEA /* MainNavigationVC.swift */; };
+		6B200E2A2C8B47D50082EEEA /* FirstOnBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B200E262C8B47D50082EEEA /* FirstOnBoardingVC.swift */; };
+		6B200E2B2C8B47D50082EEEA /* SecondOnBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B200E272C8B47D50082EEEA /* SecondOnBoardingVC.swift */; };
+		6B200E2C2C8B47D50082EEEA /* ThirdOnBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B200E282C8B47D50082EEEA /* ThirdOnBoardingVC.swift */; };
+		6B200E2E2C8B48150082EEEA /* FourthOnBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B200E2D2C8B48150082EEEA /* FourthOnBoardingVC.swift */; };
+		6B2010DC2C8B60670082EEEA /* secondSignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2010D82C8B60670082EEEA /* secondSignupVC.swift */; };
+		6B2010DD2C8B60670082EEEA /* signInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2010D92C8B60670082EEEA /* signInVC.swift */; };
+		6B2010DE2C8B60670082EEEA /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2010DA2C8B60670082EEEA /* SignupVC.swift */; };
+		6B2010DF2C8B60670082EEEA /* countrySheetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2010DB2C8B60670082EEEA /* countrySheetVC.swift */; };
+		6B2010E72C8B62220082EEEA /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2010E42C8B62220082EEEA /* CustomTextField.swift */; };
+		6B2010E82C8B62220082EEEA /* CustomTextField2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2010E52C8B62220082EEEA /* CustomTextField2.swift */; };
+		6B2010EC2C8B62710082EEEA /* String+trimm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2010EA2C8B62710082EEEA /* String+trimm.swift */; };
+		6B2010ED2C8B62710082EEEA /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2010EB2C8B62710082EEEA /* UIViewController+Alert.swift */; };
+		6B2010F22C8B631C0082EEEA /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2010F12C8B631C0082EEEA /* Country.swift */; };
+		6B2010F62C8B635A0082EEEA /* signCountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B2010F42C8B635A0082EEEA /* signCountryTableViewCell.xib */; };
+		6B2010F72C8B635A0082EEEA /* signCountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2010F52C8B635A0082EEEA /* signCountryTableViewCell.swift */; };
+		6B2010F92C8B640D0082EEEA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2010F82C8B640C0082EEEA /* User.swift */; };
+		6BCB761E2C8B8F24000F4F6B /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB761D2C8B8F24000F4F6B /* ProfileVC.swift */; };
+		6BCB76202C8B8F87000F4F6B /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB761F2C8B8F87000F4F6B /* TabBarVC.swift */; };
+		6BCB76352C8BC299000F4F6B /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB76342C8BC299000F4F6B /* MenuItem.swift */; };
+		6BCB763B2C8BDB52000F4F6B /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB763A2C8BDB52000F4F6B /* MenuController.swift */; };
+		6BCB763D2C8BDBFC000F4F6B /* IntermediaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB763C2C8BDBFC000F4F6B /* IntermediaryModels.swift */; };
+		6BCB76442C8BDD14000F4F6B /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB763F2C8BDD13000F4F6B /* MenuTableViewController.swift */; };
+		6BCB76452C8BDD14000F4F6B /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB76402C8BDD13000F4F6B /* OrderConfirmationViewController.swift */; };
+		6BCB76462C8BDD14000F4F6B /* MenuItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB76412C8BDD13000F4F6B /* MenuItemDetailViewController.swift */; };
+		6BCB76472C8BDD14000F4F6B /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB76422C8BDD13000F4F6B /* OrderTableViewController.swift */; };
+		6BCB76482C8BDD14000F4F6B /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB76432C8BDD14000F4F6B /* CategoryTableViewController.swift */; };
+		6BCB764F2C8BF0BE000F4F6B /* WithdrawDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB764A2C8BF0BD000F4F6B /* WithdrawDetailsVC.swift */; };
+		6BCB76502C8BF0BE000F4F6B /* WithdrawVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB764B2C8BF0BD000F4F6B /* WithdrawVC.swift */; };
+		6BCB76512C8BF0BE000F4F6B /* TopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB764C2C8BF0BD000F4F6B /* TopUpVC.swift */; };
+		6BCB76522C8BF0BE000F4F6B /* WallletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB764D2C8BF0BE000F4F6B /* WallletVC.swift */; };
+		6BCB76532C8BF0BE000F4F6B /* DepositDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB764E2C8BF0BE000F4F6B /* DepositDetailVC.swift */; };
+		6BCB76562C8BF0CC000F4F6B /* OperationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB76542C8BF0CC000F4F6B /* OperationTableViewCell.swift */; };
+		6BCB76572C8BF0CC000F4F6B /* PaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB76552C8BF0CC000F4F6B /* PaymentTableViewCell.swift */; };
+		6BCB765A2C8BF0D6000F4F6B /* PaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB76582C8BF0D6000F4F6B /* PaymentCell.swift */; };
+		6BCB765B2C8BF0D6000F4F6B /* recentActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB76592C8BF0D6000F4F6B /* recentActivityCell.swift */; };
+		6BCB765D2C8BF0F4000F4F6B /* BlurredLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB765C2C8BF0F4000F4F6B /* BlurredLabel.swift */; };
+		6BCB76642C8BFD68000F4F6B /* NavigationMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCB76632C8BFD68000F4F6B /* NavigationMenuVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1821A6CF062E8FF2C74E8727 /* Pods-Foody.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foody.release.xcconfig"; path = "Target Support Files/Pods-Foody/Pods-Foody.release.xcconfig"; sourceTree = "<group>"; };
+		2A720C7F1D5255B5FFF61431 /* Pods-Foody.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foody.debug.xcconfig"; path = "Target Support Files/Pods-Foody/Pods-Foody.debug.xcconfig"; sourceTree = "<group>"; };
 		6B200E0B2C8B2DF90082EEEA /* Foody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foody.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B200E0E2C8B2DF90082EEEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B200E102C8B2DF90082EEEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6B200E122C8B2DF90082EEEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6B200E152C8B2DF90082EEEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B200E172C8B2DFC0082EEEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B200E1A2C8B2DFC0082EEEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B200E1C2C8B2DFC0082EEEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B200E222C8B3B8C0082EEEA /* LaunchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchVC.swift; sourceTree = "<group>"; };
+		6B200E242C8B3D9E0082EEEA /* MainNavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationVC.swift; sourceTree = "<group>"; };
+		6B200E262C8B47D50082EEEA /* FirstOnBoardingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstOnBoardingVC.swift; sourceTree = "<group>"; };
+		6B200E272C8B47D50082EEEA /* SecondOnBoardingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondOnBoardingVC.swift; sourceTree = "<group>"; };
+		6B200E282C8B47D50082EEEA /* ThirdOnBoardingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdOnBoardingVC.swift; sourceTree = "<group>"; };
+		6B200E2D2C8B48150082EEEA /* FourthOnBoardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthOnBoardingVC.swift; sourceTree = "<group>"; };
+		6B2010D82C8B60670082EEEA /* secondSignupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondSignupVC.swift; sourceTree = "<group>"; };
+		6B2010D92C8B60670082EEEA /* signInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInVC.swift; sourceTree = "<group>"; };
+		6B2010DA2C8B60670082EEEA /* SignupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		6B2010DB2C8B60670082EEEA /* countrySheetVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = countrySheetVC.swift; sourceTree = "<group>"; };
+		6B2010E42C8B62220082EEEA /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		6B2010E52C8B62220082EEEA /* CustomTextField2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField2.swift; sourceTree = "<group>"; };
+		6B2010EA2C8B62710082EEEA /* String+trimm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+trimm.swift"; sourceTree = "<group>"; };
+		6B2010EB2C8B62710082EEEA /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		6B2010F12C8B631C0082EEEA /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		6B2010F42C8B635A0082EEEA /* signCountryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = signCountryTableViewCell.xib; sourceTree = "<group>"; };
+		6B2010F52C8B635A0082EEEA /* signCountryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signCountryTableViewCell.swift; sourceTree = "<group>"; };
+		6B2010F82C8B640C0082EEEA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6BCB761D2C8B8F24000F4F6B /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		6BCB761F2C8B8F87000F4F6B /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		6BCB76342C8BC299000F4F6B /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		6BCB763A2C8BDB52000F4F6B /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		6BCB763C2C8BDBFC000F4F6B /* IntermediaryModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntermediaryModels.swift; sourceTree = "<group>"; };
+		6BCB763F2C8BDD13000F4F6B /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		6BCB76402C8BDD13000F4F6B /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderConfirmationViewController.swift; sourceTree = "<group>"; };
+		6BCB76412C8BDD13000F4F6B /* MenuItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemDetailViewController.swift; sourceTree = "<group>"; };
+		6BCB76422C8BDD13000F4F6B /* OrderTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		6BCB76432C8BDD14000F4F6B /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		6BCB764A2C8BF0BD000F4F6B /* WithdrawDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithdrawDetailsVC.swift; sourceTree = "<group>"; };
+		6BCB764B2C8BF0BD000F4F6B /* WithdrawVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithdrawVC.swift; sourceTree = "<group>"; };
+		6BCB764C2C8BF0BD000F4F6B /* TopUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopUpVC.swift; sourceTree = "<group>"; };
+		6BCB764D2C8BF0BE000F4F6B /* WallletVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallletVC.swift; sourceTree = "<group>"; };
+		6BCB764E2C8BF0BE000F4F6B /* DepositDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepositDetailVC.swift; sourceTree = "<group>"; };
+		6BCB76542C8BF0CC000F4F6B /* OperationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationTableViewCell.swift; sourceTree = "<group>"; };
+		6BCB76552C8BF0CC000F4F6B /* PaymentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentTableViewCell.swift; sourceTree = "<group>"; };
+		6BCB76582C8BF0D6000F4F6B /* PaymentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentCell.swift; sourceTree = "<group>"; };
+		6BCB76592C8BF0D6000F4F6B /* recentActivityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recentActivityCell.swift; sourceTree = "<group>"; };
+		6BCB765C2C8BF0F4000F4F6B /* BlurredLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurredLabel.swift; sourceTree = "<group>"; };
+		6BCB76632C8BFD68000F4F6B /* NavigationMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMenuVC.swift; sourceTree = "<group>"; };
+		DAEDFA7AC7D83DC7AB613DE4 /* Pods_Foody.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foody.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EB152BB43CA1066544F7B7A /* Pods_Foody.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +123,8 @@
 			children = (
 				6B200E0D2C8B2DF90082EEEA /* Foody */,
 				6B200E0C2C8B2DF90082EEEA /* Products */,
+				A308D32C5AAA908F5AC648FB /* Pods */,
+				BEAA31EEFB79AC15476D2328 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +139,238 @@
 		6B200E0D2C8B2DF90082EEEA /* Foody */ = {
 			isa = PBXGroup;
 			children = (
-				6B200E0E2C8B2DF90082EEEA /* AppDelegate.swift */,
-				6B200E102C8B2DF90082EEEA /* SceneDelegate.swift */,
-				6B200E122C8B2DF90082EEEA /* ViewController.swift */,
-				6B200E142C8B2DF90082EEEA /* Main.storyboard */,
-				6B200E172C8B2DFC0082EEEA /* Assets.xcassets */,
-				6B200E192C8B2DFC0082EEEA /* LaunchScreen.storyboard */,
+				6B200E302C8B56CE0082EEEA /* Shared */,
+				6B200E2F2C8B56A10082EEEA /* Story Board */,
+				6BCB76382C8BDADB000F4F6B /* Resources */,
+				6B2010E92C8B62630082EEEA /* Extentions */,
+				6B2010EE2C8B62810082EEEA /* Models */,
+				6B2010E22C8B620A0082EEEA /* Views */,
+				6B2010E02C8B60720082EEEA /* Controllers */,
 				6B200E1C2C8B2DFC0082EEEA /* Info.plist */,
 			);
 			path = Foody;
+			sourceTree = "<group>";
+		};
+		6B200E292C8B47D50082EEEA /* On Boarding Screen */ = {
+			isa = PBXGroup;
+			children = (
+				6B200E242C8B3D9E0082EEEA /* MainNavigationVC.swift */,
+				6B200E262C8B47D50082EEEA /* FirstOnBoardingVC.swift */,
+				6B200E272C8B47D50082EEEA /* SecondOnBoardingVC.swift */,
+				6B200E282C8B47D50082EEEA /* ThirdOnBoardingVC.swift */,
+				6B200E2D2C8B48150082EEEA /* FourthOnBoardingVC.swift */,
+			);
+			path = "On Boarding Screen";
+			sourceTree = "<group>";
+		};
+		6B200E2F2C8B56A10082EEEA /* Story Board */ = {
+			isa = PBXGroup;
+			children = (
+				6B200E142C8B2DF90082EEEA /* Main.storyboard */,
+				6B200E192C8B2DFC0082EEEA /* LaunchScreen.storyboard */,
+				6B200E222C8B3B8C0082EEEA /* LaunchVC.swift */,
+			);
+			path = "Story Board";
+			sourceTree = "<group>";
+		};
+		6B200E302C8B56CE0082EEEA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6B200E102C8B2DF90082EEEA /* SceneDelegate.swift */,
+				6B200E0E2C8B2DF90082EEEA /* AppDelegate.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6B2010E02C8B60720082EEEA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6B200E292C8B47D50082EEEA /* On Boarding Screen */,
+				6B2010E12C8B608A0082EEEA /* Registration */,
+				6BCB76272C8BADFB000F4F6B /* Restaurant */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6B2010E12C8B608A0082EEEA /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				6B2010D92C8B60670082EEEA /* signInVC.swift */,
+				6B2010DA2C8B60670082EEEA /* SignupVC.swift */,
+				6B2010D82C8B60670082EEEA /* secondSignupVC.swift */,
+				6B2010DB2C8B60670082EEEA /* countrySheetVC.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		6B2010E22C8B620A0082EEEA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6B8395322C8C4B1F00EC02FD /* CustomTextField */,
+				6BCB765F2C8BF5FF000F4F6B /* Wallet */,
+				6B2010F32C8B634F0082EEEA /* Sign In CountriesTableview */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6B2010E92C8B62630082EEEA /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				6BCB765C2C8BF0F4000F4F6B /* BlurredLabel.swift */,
+				6B2010EA2C8B62710082EEEA /* String+trimm.swift */,
+				6B2010EB2C8B62710082EEEA /* UIViewController+Alert.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		6B2010EE2C8B62810082EEEA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6BCB76612C8BF809000F4F6B /* Registration */,
+				6BCB76602C8BF610000F4F6B /* Wallet */,
+				6BCB76622C8BF81A000F4F6B /* Restaurant */,
+				6BCB76392C8BDB42000F4F6B /* Model Controller */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6B2010F32C8B634F0082EEEA /* Sign In CountriesTableview */ = {
+			isa = PBXGroup;
+			children = (
+				6B2010F52C8B635A0082EEEA /* signCountryTableViewCell.swift */,
+				6B2010F42C8B635A0082EEEA /* signCountryTableViewCell.xib */,
+			);
+			path = "Sign In CountriesTableview";
+			sourceTree = "<group>";
+		};
+		6B8395322C8C4B1F00EC02FD /* CustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				6B2010E42C8B62220082EEEA /* CustomTextField.swift */,
+				6B2010E52C8B62220082EEEA /* CustomTextField2.swift */,
+			);
+			path = CustomTextField;
+			sourceTree = "<group>";
+		};
+		6BCB76272C8BADFB000F4F6B /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				6BCB765E2C8BF51B000F4F6B /* Wallet */,
+				6BCB762A2C8BB34B000F4F6B /* Food */,
+				6BCB762F2C8BB39A000F4F6B /* Cart */,
+				6BCB76492C8BEE49000F4F6B /* Account */,
+			);
+			path = Restaurant;
+			sourceTree = "<group>";
+		};
+		6BCB762A2C8BB34B000F4F6B /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				6BCB761F2C8B8F87000F4F6B /* TabBarVC.swift */,
+				6BCB76632C8BFD68000F4F6B /* NavigationMenuVC.swift */,
+				6BCB76432C8BDD14000F4F6B /* CategoryTableViewController.swift */,
+				6BCB763F2C8BDD13000F4F6B /* MenuTableViewController.swift */,
+				6BCB76412C8BDD13000F4F6B /* MenuItemDetailViewController.swift */,
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		6BCB762F2C8BB39A000F4F6B /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				6BCB76422C8BDD13000F4F6B /* OrderTableViewController.swift */,
+				6BCB76402C8BDD13000F4F6B /* OrderConfirmationViewController.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		6BCB76382C8BDADB000F4F6B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B200E172C8B2DFC0082EEEA /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6BCB76392C8BDB42000F4F6B /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6BCB763A2C8BDB52000F4F6B /* MenuController.swift */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		6BCB76492C8BEE49000F4F6B /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				6BCB761D2C8B8F24000F4F6B /* ProfileVC.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		6BCB765E2C8BF51B000F4F6B /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				6BCB764D2C8BF0BE000F4F6B /* WallletVC.swift */,
+				6BCB764C2C8BF0BD000F4F6B /* TopUpVC.swift */,
+				6BCB764B2C8BF0BD000F4F6B /* WithdrawVC.swift */,
+				6BCB764E2C8BF0BE000F4F6B /* DepositDetailVC.swift */,
+				6BCB764A2C8BF0BD000F4F6B /* WithdrawDetailsVC.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		6BCB765F2C8BF5FF000F4F6B /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				6BCB76552C8BF0CC000F4F6B /* PaymentTableViewCell.swift */,
+				6BCB76542C8BF0CC000F4F6B /* OperationTableViewCell.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		6BCB76602C8BF610000F4F6B /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				6BCB76592C8BF0D6000F4F6B /* recentActivityCell.swift */,
+				6BCB76582C8BF0D6000F4F6B /* PaymentCell.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		6BCB76612C8BF809000F4F6B /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				6B2010F82C8B640C0082EEEA /* User.swift */,
+				6B2010F12C8B631C0082EEEA /* Country.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		6BCB76622C8BF81A000F4F6B /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				6BCB76342C8BC299000F4F6B /* MenuItem.swift */,
+				6BCB763C2C8BDBFC000F4F6B /* IntermediaryModels.swift */,
+			);
+			path = Restaurant;
+			sourceTree = "<group>";
+		};
+		A308D32C5AAA908F5AC648FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A720C7F1D5255B5FFF61431 /* Pods-Foody.debug.xcconfig */,
+				1821A6CF062E8FF2C74E8727 /* Pods-Foody.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BEAA31EEFB79AC15476D2328 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAEDFA7AC7D83DC7AB613DE4 /* Pods_Foody.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +380,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B200E1F2C8B2DFC0082EEEA /* Build configuration list for PBXNativeTarget "Foody" */;
 			buildPhases = (
+				1C7938F27D4D71EDA13E6793 /* [CP] Check Pods Manifest.lock */,
 				6B200E072C8B2DF90082EEEA /* Sources */,
 				6B200E082C8B2DF90082EEEA /* Frameworks */,
 				6B200E092C8B2DF90082EEEA /* Resources */,
+				1A4C8539A4F8E5C1B8284C04 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +434,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B200E182C8B2DFC0082EEEA /* Assets.xcassets in Resources */,
+				6B2010F62C8B635A0082EEEA /* signCountryTableViewCell.xib in Resources */,
 				6B200E1B2C8B2DFC0082EEEA /* Base in Resources */,
 				6B200E162C8B2DF90082EEEA /* Base in Resources */,
 			);
@@ -133,14 +442,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A4C8539A4F8E5C1B8284C04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foody/Pods-Foody-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foody/Pods-Foody-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Foody/Pods-Foody-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C7938F27D4D71EDA13E6793 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foody-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6B200E072C8B2DF90082EEEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B200E132C8B2DF90082EEEA /* ViewController.swift in Sources */,
+				6B2010E72C8B62220082EEEA /* CustomTextField.swift in Sources */,
+				6B2010DE2C8B60670082EEEA /* SignupVC.swift in Sources */,
+				6BCB76572C8BF0CC000F4F6B /* PaymentTableViewCell.swift in Sources */,
+				6BCB76442C8BDD14000F4F6B /* MenuTableViewController.swift in Sources */,
+				6B200E2A2C8B47D50082EEEA /* FirstOnBoardingVC.swift in Sources */,
+				6B2010ED2C8B62710082EEEA /* UIViewController+Alert.swift in Sources */,
+				6B200E2C2C8B47D50082EEEA /* ThirdOnBoardingVC.swift in Sources */,
+				6BCB76642C8BFD68000F4F6B /* NavigationMenuVC.swift in Sources */,
+				6B200E2B2C8B47D50082EEEA /* SecondOnBoardingVC.swift in Sources */,
+				6B2010F22C8B631C0082EEEA /* Country.swift in Sources */,
+				6BCB76202C8B8F87000F4F6B /* TabBarVC.swift in Sources */,
+				6BCB763B2C8BDB52000F4F6B /* MenuController.swift in Sources */,
+				6B200E232C8B3B8C0082EEEA /* LaunchVC.swift in Sources */,
+				6BCB763D2C8BDBFC000F4F6B /* IntermediaryModels.swift in Sources */,
+				6BCB761E2C8B8F24000F4F6B /* ProfileVC.swift in Sources */,
+				6B200E2E2C8B48150082EEEA /* FourthOnBoardingVC.swift in Sources */,
+				6B2010EC2C8B62710082EEEA /* String+trimm.swift in Sources */,
+				6BCB765A2C8BF0D6000F4F6B /* PaymentCell.swift in Sources */,
+				6B2010DD2C8B60670082EEEA /* signInVC.swift in Sources */,
+				6BCB765D2C8BF0F4000F4F6B /* BlurredLabel.swift in Sources */,
+				6BCB76482C8BDD14000F4F6B /* CategoryTableViewController.swift in Sources */,
+				6B2010DC2C8B60670082EEEA /* secondSignupVC.swift in Sources */,
+				6B200E252C8B3D9E0082EEEA /* MainNavigationVC.swift in Sources */,
+				6BCB76452C8BDD14000F4F6B /* OrderConfirmationViewController.swift in Sources */,
 				6B200E0F2C8B2DF90082EEEA /* AppDelegate.swift in Sources */,
+				6BCB764F2C8BF0BE000F4F6B /* WithdrawDetailsVC.swift in Sources */,
+				6B2010F72C8B635A0082EEEA /* signCountryTableViewCell.swift in Sources */,
+				6B2010E82C8B62220082EEEA /* CustomTextField2.swift in Sources */,
+				6BCB76562C8BF0CC000F4F6B /* OperationTableViewCell.swift in Sources */,
+				6BCB76352C8BC299000F4F6B /* MenuItem.swift in Sources */,
+				6BCB76512C8BF0BE000F4F6B /* TopUpVC.swift in Sources */,
+				6BCB765B2C8BF0D6000F4F6B /* recentActivityCell.swift in Sources */,
+				6B2010DF2C8B60670082EEEA /* countrySheetVC.swift in Sources */,
 				6B200E112C8B2DF90082EEEA /* SceneDelegate.swift in Sources */,
+				6BCB76532C8BF0BE000F4F6B /* DepositDetailVC.swift in Sources */,
+				6BCB76502C8BF0BE000F4F6B /* WithdrawVC.swift in Sources */,
+				6B2010F92C8B640D0082EEEA /* User.swift in Sources */,
+				6BCB76472C8BDD14000F4F6B /* OrderTableViewController.swift in Sources */,
+				6BCB76462C8BDD14000F4F6B /* MenuItemDetailViewController.swift in Sources */,
+				6BCB76522C8BF0BE000F4F6B /* WallletVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +591,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +654,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,12 +675,14 @@
 		};
 		6B200E202C8B2DFC0082EEEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A720C7F1D5255B5FFF61431 /* Pods-Foody.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 738A487SP4;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Foody/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -315,12 +705,14 @@
 		};
 		6B200E212C8B2DFC0082EEEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1821A6CF062E8FF2C74E8727 /* Pods-Foody.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 738A487SP4;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Foody/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
